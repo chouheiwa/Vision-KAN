@@ -263,7 +263,7 @@ def main(args):
             label_smoothing=args.smoothing, num_classes=args.nb_classes)
 
     print(f"Creating model: {args.model}")
-    model = create_model(
+    model = create_mdel(
         args.model,
         pretrained=False,
         num_classes=args.nb_classes,
